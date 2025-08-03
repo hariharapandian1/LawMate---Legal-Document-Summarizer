@@ -19,13 +19,13 @@ LawMate is an AI-powered legal document analyzer that verifies, summarizes, and 
 ## 📸 Preview
 
 🔍 Clause Detection  
-<p align="center"><img src="screenshot_clauses.png" width="700" alt="Detected Clauses Preview"/></p>
+<p align="center"><img src="Shot1.png" width="700" alt="Detected Clauses Preview"/></p>
 
 📄 Summary Output  
-<p align="center"><img src="screenshot_summary.png" width="700" alt="Document Summary Preview"/></p>
+<p align="center"><img src="Shot2.png" width="700" alt="Document Summary Preview"/></p>
 
 📚 History View  
-<p align="center"><img src="screenshot_history.png" width="700" alt="Analysis History UI"/></p>
+<p align="center"><img src="Shot3.png" width="700" alt="Analysis History UI"/></p>
 
 ---
 
@@ -111,6 +111,8 @@ streamlit run main.py
  ┌────────────────────────────┐
  │ Streamlit Output UI        │ ← Renders full results
  └────────────────────────────┘
+```
+# Document Verification
 
 ```markdown
 # Hybrid Legal Document Verification
@@ -128,12 +130,13 @@ LawMate uses a three-stage verification process:
 ## 3. Hybrid Confidence Boosting
 - Applies fallback rules if model confidence is between 30–70%
 - Long documents get a slight confidence boost
-
+```
 ---
 
 # Clause Extraction Methodology
 
 LawMate detects over 30 clause types using robust regex patterns, grouped into:
+```markdown
 
 | Category             | Examples                                   |
 |----------------------|--------------------------------------------|
@@ -145,7 +148,7 @@ LawMate detects over 30 clause types using robust regex patterns, grouped into:
 | Legal Framework    | jurisdiction, governing law, arbitration  |
 
 Each clause is extracted with its label and displayed in a structured block.
-
+```
 ---
 
 # Summary Generation
@@ -181,7 +184,9 @@ CREATE TABLE analyses (
   pattern_version TEXT,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+```
 
+A sidebar lets users view and inspect recent document analyses.
 
 ---
 
@@ -207,4 +212,5 @@ CREATE TABLE analyses (
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ```
----
+
+This Markdown will render your detailed description in a well-structured, readable format suitable for documentation or a README file.
