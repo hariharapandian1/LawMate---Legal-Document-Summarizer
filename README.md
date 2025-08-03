@@ -16,18 +16,18 @@ This project is a Streamlit-based legal document analysis tool that uses NLP mod
 
 ## 🛠️ Setup Instructions
 
-# 1. Clone the Repository
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/legal-analyzer.git
 cd legal-analyzer
 ```
 ---
-# 2. Install Dependencies
+### 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 ---
-# 3. Run the Application
+### 3. Run the Application
 ```bash
 streamlit run app.py
 ```
