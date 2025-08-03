@@ -211,6 +211,5 @@ A sidebar lets users view and inspect recent document analyses.
 # License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
 
-This Markdown will render your detailed description in a well-structured, readable format suitable for documentation or a README file.
+---
