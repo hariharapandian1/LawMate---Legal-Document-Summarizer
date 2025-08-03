@@ -52,7 +52,7 @@ Results Displayed on UI
 ## ⚙️ Hybrid Legal Document Verification
 This system combines traditional regex-based rule engines with transformer models for enhanced verification:
 
-# 1. Clause Extraction
+### 1. Clause Extraction
 We extract clauses based on keyword families using regex:
 
 Category	Examples
@@ -63,7 +63,7 @@ Liabilities	indemnify, liability, hold harmless
 Confidentiality	non-disclosure, confidential
 Legal Framework	jurisdiction, governing law, arbitration
 
-# 2. Classification
+### 2. Classification
 We use a HuggingFace transformer model (bhadresh-savani/bert-base-legal) to classify legal topics.
 
 🧠 AI Assistance using Transformers
@@ -104,10 +104,11 @@ CREATE TABLE clause_analysis (
 
 📚 History View 
 <p align="center"> <img src="Shot3.png" width="700" alt="PDF Upload UI Preview"/> </p>
+
 ---
 
 ## ⚠️ Limitations and Future Improvements
-Limitation	Planned Improvement
+### Limitation	Planned Improvement
 - Rule-based clause matching only	Integrate spaCy NER for semantic clause detection
 - No authentication	Add login & user tracking
 - SQLite used for simplicity	Switch to PostgreSQL for production
@@ -118,5 +119,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 👨‍💻 Author
 Venkadesha Harihara Pandian
-LinkedIn: www.linkedin.com/in/venkadesha-harihara-pandian-234a3a253
-GitHub: https://github.com/hariharapandian1
+- LinkedIn: www.linkedin.com/in/venkadesha-harihara-pandian-234a3a253
+- GitHub: https://github.com/hariharapandian1
